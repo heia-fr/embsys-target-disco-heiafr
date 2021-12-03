@@ -1,6 +1,6 @@
 {
     "name": "TARGET_DISCO_HEIAFR",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "mbed-os target files for Discovery board used at HEIA-FR",
     "authors": [
         {

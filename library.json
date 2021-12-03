@@ -1,0 +1,20 @@
+{
+    "name": "Target Disco HEIA-FR",
+    "version": "0.1.0",
+    "description": "mbed-os target files for Discovery board used at HEIA-FR",
+    "authors": [
+        {
+            "name": "Jacques Supcik",
+            "email": "jacques.supcik@hefr.ch",
+            "maintainer": true
+        },
+        {
+            "name": "Serge Ayer",
+            "email": "serge.ayer@hefr.ch",
+            "maintainer": true
+        }
+    ],
+    "license": "Apache-2.0",
+    "frameworks": "mbed",
+    "platforms": "ststm32"
+}

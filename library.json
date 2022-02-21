@@ -16,5 +16,6 @@
     ],
     "license": "Apache-2.0",
     "frameworks": "mbed",
-    "platforms": "ststm32"
+    "platforms": "ststm32",
+    "headers": ["PinNames.h"]
 }

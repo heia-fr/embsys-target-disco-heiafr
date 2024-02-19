@@ -320,10 +320,6 @@ typedef enum {
     USER_BUTTON = PC_13,
     // Standardized button names
     BUTTON1 = USER_BUTTON,
-    SERIAL_TX   = STDIO_UART_TX,
-    SERIAL_RX   = STDIO_UART_RX,
-    USBTX       = STDIO_UART_TX,
-    USBRX       = STDIO_UART_RX,
     I2C_SCL     = D15,
     I2C_SDA     = D14,
     SPI_MOSI    = D11,

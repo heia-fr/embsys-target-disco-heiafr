@@ -320,13 +320,13 @@ typedef enum {
     USER_BUTTON = PC_13,
     // Standardized button names
     BUTTON1 = USER_BUTTON,
-    I2C_SCL     = D15,
-    I2C_SDA     = D14,
-    SPI_MOSI    = D11,
-    SPI_MISO    = D12,
-    SPI_SCK     = D13,
-    SPI_CS      = D10,
-    PWM_OUT     = D9,
+    I2C_SCL     = ARDUINO_UNO_D15,
+    I2C_SDA     = ARDUINO_UNO_D14,
+    SPI_MOSI    = ARDUINO_UNO_D11,
+    SPI_MISO    = ARDUINO_UNO_D12,
+    SPI_SCK     = ARDUINO_UNO_D13,
+    SPI_CS      = ARDUINO_UNO_D10,
+    PWM_OUT     = ARDUINO_UNO_D9,
 
     /**** USB FS pins ****/
     USB_OTG_FS_DM = PA_11,

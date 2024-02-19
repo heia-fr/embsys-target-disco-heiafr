@@ -218,6 +218,7 @@ typedef enum {
     ADC_VBAT = 0xF2,
 
     // Arduino connector namings
+#ifdef TARGET_FF_ARDUINO_UNO
     ARDUINO_UNO_A0          = PA_1,
     ARDUINO_UNO_A1          = PC_1,
     ARDUINO_UNO_A2          = PC_3,
@@ -243,6 +244,7 @@ typedef enum {
     ARDUINO_UNO_D13         = PA_5,
     ARDUINO_UNO_D14         = PB_9,
     ARDUINO_UNO_D15         = PB_10,
+#endif
     D16         = PC_6,
     D17         = PB_15,
     D18         = PB_13,

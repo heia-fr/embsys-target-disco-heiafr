@@ -306,9 +306,9 @@ typedef enum {
     CONSOLE_TX = PA_2,
 #endif
 #ifdef MBED_CONF_TARGET_STDIO_UART_RX
-    CONSOLE_TX = MBED_CONF_TARGET_STDIO_UART_RX,
+    CONSOLE_RX = MBED_CONF_TARGET_STDIO_UART_RX,
 #else
-    CONSOLE_TX = PA_3,
+    CONSOLE_RX = PA_3,
 #endif
 
     // Generic signals namings
